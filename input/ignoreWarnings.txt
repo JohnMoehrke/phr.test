@@ -1,0 +1,51 @@
+== Suppressed Messages ==
+
+# Add warning and/or information messages here after you've confirmed that they aren't really a problem
+# (And include comments like this justifying why)
+# See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
+
+# No name as it changes too much
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Bundle/7d584b35-869d-4719-aa09-15881182d213.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+
+
+# don't care about this ucum warning
+MSG_DRAFT
+
+# ChemHem does not have a code
+Terminology_TX_Code_ValueSet_Ext
+
+# ChemHem has extra category codes 
+This element does not match any known slice defined in the profile http://johnmoehrke.github.io/phr/StructureDefinition/JFM.PHR.chReport|0.3.6-current (this may not be a problem, but you should check that it's not intended to match a slice)
+
+# VA codeSystem 
+A definition for CodeSystem 'http://va.gov/terminology/vistaDefinedTerms/60' could not be found, so the code cannot be validated
+A definition for CodeSystem 'http://va.gov/terminology/vistaDefinedTerms/61' version '5.2' could not be found, so the code cannot be validated%
+A definition for CodeSystem 'http://va.gov/terminology/vistaDefinedTerms/64' could not be found, so the code cannot be validated
+A definition for CodeSystem 'http://va.gov/terminology/vistaDefinedTerms/95.3' version '2.52' could not be found, so the code cannot be validated%
+A definition for CodeSystem 'http://va.gov/terminology/vistaDefinedTerms/95.3' version '2.14' could not be found, so the code cannot be validated%
+A definition for CodeSystem 'http://va.gov/terminology/vistaDefinedTerms/95.3' version '2.65' could not be found, so the code cannot be validated%
+A definition for CodeSystem 'http://va.gov/terminology/vistaDefinedTerms/95.3' version '2.63' could not be found, so the code cannot be validated%
+A definition for CodeSystem 'http://va.gov/terminology/vistaDefinedTerms/95.3' version '2.68' could not be found, so the code cannot be validated%
+A definition for CodeSystem 'http://va.gov/terminology/vistaDefinedTerms/95.3' version '2.64' could not be found, so the code cannot be validated%
+A definition for CodeSystem 'http://va.gov/terminology/vistaDefinedTerms/95.3' version '2.61' could not be found, so the code cannot be validated%
+A definition for CodeSystem 'http://va.gov/terminology/vistaDefinedTerms/95.3' version '2.76' could not be found, so the code cannot be validated%
+A definition for CodeSystem 'http://va.gov/terminology/vistaDefinedTerms/95.3' version '2.77' could not be found, so the code cannot be validated%
+A definition for CodeSystem 'http://va.gov/terminology/vistaDefinedTerms/95.3' version '2.77' could not be found, so the code cannot be validated%
+
+# ChemHem seems to use this version of snomed
+A definition for CodeSystem 'http://snomed.info' version '20170901' could not be found, so the code cannot be validated%
+A definition for CodeSystem 'http://snomed.info' version '20180301' could not be found, so the code cannot be validated%
+A definition for CodeSystem 'http://snomed.info' version '20200901' could not be found, so the code cannot be validated%
+A definition for CodeSystem 'http://snomed.info' version '20200731' could not be found, so the code cannot be validated%
+A definition for CodeSystem 'http://snomed.info' version '20180901' could not be found, so the code cannot be validated%
+A definition for CodeSystem 'http://snomed.info' version '20240701' could not be found, so the code cannot be validated%
+
+# don't care
+This element does not match any known slice defined in the profile%
+Unknown code%
+Found multiple matching profiles %
+
+# Vital-Sign concepts are mapped from VUID
+A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.233' could not be found, so the code cannot be validated
+The Source Code System urn:oid:2.16.840.1.113883.6.233 is not fully defined and populated, and no sourceScope is specified, so the source code checking will not be performed
+
