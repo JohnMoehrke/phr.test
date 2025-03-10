@@ -216,7 +216,7 @@ Usage: #inline
 * identifier.use = #usual
 * identifier.system = "urn:oid:2.16.840.1.113883.4.349"
 * identifier.value = "0"
-* name.text = "KHAN,MUAZZAM"
+* name.text = "Tester, Testy"
 
 
 
@@ -365,7 +365,7 @@ Usage: #inline
 * identifier.use = #usual
 * identifier.system = "urn:oid:2.16.840.1.113883.4.349"
 * identifier.value = "0"
-* name.text = "AHMED,MARUF"
+* name.text = "Tester, Testy"
 
 
 

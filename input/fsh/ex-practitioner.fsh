@@ -71,135 +71,91 @@ Usage: #inline
 * identifier[TOid].value = "AuthorTO.110"
 * identifier[TOid].system = "urn:oid:2.16.840.1.113883.4.349.4.989"
 
-/* 
-<observer>
-    <id>4262</id>
-    <name>PATIL,SARASWATI</name>
-    <signature/>
-</observer>
-*/
+
 Instance: ex-MHV-practitioner-4262
 InstanceOf: JFMpractitioner
 Title: "Practitioner 4262"
-Description: "Phyllis Mangas"
+Description: "Mesmerizing Mover"
 Usage: #inline
-* name.text = "PATIL,SARASWATI"
-* name.family = "PATIL"
-* name.given[+] = "SARASWATI"
+* name.text = "Mover, Mesmerizing"
+* name.family = "Mover"
+* name.given[+] = "Mesmerizing"
 * identifier[TOid].use = #usual
 * identifier[TOid].value = "AuthorTO.4262"
 * identifier[TOid].system = "urn:oid:2.16.840.1.113883.4.349.4.989"
 
-/*
-<observer>
-    <id>6051</id>
-    <name>BASHIR,CHOWDRY MUJAHID</name>
-    <signature/>
-</observer>
-*/
+
 Instance: ex-MHV-practitioner-6051
 InstanceOf: JFMpractitioner
 Title: "Practitioner 6051"
-Description: "Phyllis Mangas"
+Description: "Pokey P Poker"
 Usage: #inline
-* name.text = "BASHIR,CHOWDRY MUJAHID"
-* name.family = "BASHIR"
-* name.given[+] = "CHOWDRY"
-* name.given[+] = "MUJAHID"
+* name.text = "Poker, Pokey"
+* name.family = "Poker"
+* name.given[+] = "Poker"
+* name.given[+] = "P"
 * identifier[TOid].use = #usual
 * identifier[TOid].value = "AuthorTO.6051"
 * identifier[TOid].system = "urn:oid:2.16.840.1.113883.4.349.4.989"
 
-/*
-<observer>
-    <id>22572</id>
-    <name>FELKLEY,KENNETH E</name>
-    <signature/>
-</observer>
-*/
+
 Instance: ex-MHV-practitioner-22572
 InstanceOf: JFMpractitioner
 Title: "Practitioner 22572"
-Description: "Phyllis Mangas"
+Description: "Wiggly Wiggler"
 Usage: #inline
-* name.text = "FELKLEY,KENNETH E"
-* name.family = "FELKLEY"
-* name.given[+] = "KENNETH"
+* name.text = "Wiggler, Wiggly"
+* name.family = "Wiggler"
+* name.given[+] = "Wiggly"
 * name.given[+] = "E"
 * identifier[TOid].use = #usual
 * identifier[TOid].value = "AuthorTO.22572"
 * identifier[TOid].system = "urn:oid:2.16.840.1.113883.4.349.4.989"
 
 
-/*  from HDR Lab
 
-            <author>
-               <identifier>
-                  <identity>14934-VA552</identity>
-               </identifier>
-               <idSourceTable>99VA4</idSourceTable>
-               <name>
-                  <given>LISA</given>
-                  <middle>A</middle>
-                  <family>HALL</family>
-               </name>
-            </author>
-*/
 Instance: ex-MHV-practitioner-14934-VA552
 InstanceOf: Practitioner
 Title: "Practitioner 14934-VA552"
-Description: "Lisa A Hall"
+Description: "Testina A Tester"
 Usage: #inline
-* name.family = "HALL"
-* name.given[+] = "LISA"
+* name.family = "Tester"
+* name.given[+] = "Testina"
 * name.given[+] = "A"
 * identifier[+].value = "14934-VA552"
 * identifier[=].system = "http://va.gov/terminology/vistaDefinedTerms/4"
 
 
-/*  from HDR Lab
 
-            <author>
-               <identifier>
-                  <identity>59845-VA660</identity>
-               </identifier>
-               <idSourceTable>99VA4</idSourceTable>
-               <name>
-                  <given>LISA</given>
-                  <middle>V</middle>
-                  <family>HALL</family>
-               </name>
-            </author>
-*/
 Instance: ex-MHV-practitioner-59845-VA660
 InstanceOf: Practitioner
 Title: "Practitioner 59845-VA660"
-Description: "Lisa A Hall"
+Description: "Testina B Tester"
 Usage: #inline
-* name.family = "HALL"
-* name.given[+] = "LISA"
-* name.given[+] = "V"
+* name.family = "Tester"
+* name.given[+] = "Testina"
+* name.given[+] = "B"
 * identifier[+].value = "59845-VA660"
 * identifier[=].system = "http://va.gov/terminology/vistaDefinedTerms/4"
 
 Instance: ex-MHV-practitioner-37524
 InstanceOf: JFM.PHR.practitioner
 Title: "Practitioner 37524"
-Description: "MARCUS OPURUM,MAUREEN N"
+Description: "Breakey Breaker"
 Usage: #inline
 * identifier[TOid].use = #usual
 * identifier[TOid].system = "urn:oid:2.16.840.1.113883.4.349.4.984"
 * identifier[TOid].value = "AuthorTO.37524"
-* name.text = "MARCUS OPURUM,MAUREEN N"
-* name.family = "MARCUS OPURUM,MAUREEN N"
+* name.text = "Breakey Breaker"
+* name.family = "Breaker, Breakey"
 
 Instance: ex-MHV-practitioner-2926
 InstanceOf: JFM.PHR.practitioner
 Title: "Practitioner 372926524"
-Description: "DOUGLAS,DAVID M"
+Description: "Stressy Stresser"
 Usage: #inline
 * identifier[TOid].use = #usual
 * identifier[TOid].system = "urn:oid:2.16.840.1.113883.4.349.4.984"
 * identifier[TOid].value = "AuthorTO.2926"
-* name.text = "DOUGLAS,DAVID M"
-* name.family = "DOUGLAS,DAVID M"
+* name.text = "Stresser, Stressy"
+* name.family = "Stresser, Stressy"
